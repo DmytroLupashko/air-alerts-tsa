@@ -1,5 +1,7 @@
 # Ukraine Air Alert Analysis
 
+Dislaimer: this is only general overview quickly created by Claude, for further details see ![Plotting code](code/aggregate_and_plot.ipynb) and ![Cleaning code](code/clean_cities.ipynb)
+
 Analysis of 36,882 air alert events across seven Ukrainian cities from March 2022 through June 2026. The primary metric is **total alert duration per day** — a better proxy for threat intensity than raw alert count, since a single long strike matters more than several brief notifications. Each day's duration is split into four time windows: night (23:00–06:00), morning (06:00–12:00), afternoon (12:00–18:00), and evening (18:00–23:00).
 
 > **Note:** Alert duration reflects when air alert systems were active, not the duration of attacks themselves. Kharkiv data contains a gap from May 2024 to February 2025 due to a data quality issue and should be interpreted with caution for that period.
